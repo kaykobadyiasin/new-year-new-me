@@ -1,13 +1,13 @@
-*{
-    margin: 0;
+body{
     padding: 0;
+    margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
 
 /* banner section  */
 .banner{
     background-image: url(../images/banner/banner3.png);
-    min-height: 930px;
+    height: 930px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -49,11 +49,12 @@
 
 /* failures section start */
 .failures{
+    overflow: hidden;
     padding-top: 130px;
-    
+    padding-bottom: 130px;
 }
 .fail_img{
-    width: 40%;
+    width: 50%;
     float: left;
 }
 .fail_img img{
@@ -63,12 +64,146 @@
 .fail_cont{
     width: 40%;
     float: right;
-    padding-top: 230px;
+    padding-top: 385px;
 }
-.fail_cont ul{
+.fail_cont ul {
+	padding-left: 0;
+}
+.fail_cont ul li{
+    list-style: none;
+    line-height: 40px;
+}
+.fail_cont h2 {
+	margin-right: 40%;
+	font-size: 40px;
+    margin-bottom: 24px;
+}
+.fail_cont p {
+	margin-right: 33%;
+    margin-bottom: 16px;
+}
+
+/* failures section end */
+
+
+/* My Plans section start */
+.my_plan{
+    padding-bottom: 130px;
+}
+.my_plan h2{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.single_parent{
+    overflow: hidden;
+}
+
+.single {
+	width: 20%;
+	float: left;
+	margin-right: 6%;
+}
+.single:last-child {
+	margin-right: 0;
+}
+.single h3{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.single h5{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    color: #737272;
+}
+.s_img{
+    width: 30%;
+    margin: 0 auto;
+}
+.s_img img{
+    width: 100%;
+}
+
+/* My Plans section start */
+
+footer{
+    padding: 80px 0;
+    background-color: #151414;
+}
+.footer_content{
+    overflow: hidden;
+}
+.f_left{
+    width: 40%;
+    float: left;
+}
+.f_left h2{
+    font-size: 45px;
+    color: white;
+}
+.f_text {
+	margin-right: 20%;
+	color: white;
+	line-height: 28px;
+}
+.f_email{
+    color: white;
+}
+.f_phone{
+    color: white;
+}
+.social_icon{
+    overflow: hidden;
+}
+.social_icon li {
+	list-style: none;
+	float: left;
+	margin-right: 30px;
     
 }
-.fail_cont li{
-    list-style: none;
+.social_icon li:hover i {
+	color: #005FAC;
+
 }
-/* failures section end */
+.social_icon li a i{
+    transition: .3s;
+}
+.social_icon li a i{
+    color: white;
+    font-size: 30px;
+}
+
+.f_right{
+    float: right;
+}
+.f_right h4{
+    font-size: 25px;
+    color: white;
+}
+.f_right input {
+	width: 325px;
+	height: 14px;
+	border-radius: 10px;
+	padding: 20px;
+	color: white;
+	border: 1px solid white;
+	background-color: transparent;
+}
+.f_right button{
+    margin-top: 25px;
+    padding: 20px 30px;
+    font-size: 20px;
+    color: white;
+    background-color: #005FAC;
+    border: none;
+    border-radius: 5px;
+    transition: .5s;
+}
+.f_right button:hover{
+    color: #005FAC;
+    background-color: white;
+}
