@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* banner section  */
+.banner{
+    background-image: url(../images/banner/banner3.png);
+    min-height: 930px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.b_content{
+    padding-top: 215px;
+    text-align: right;
+}
+.b_content h2 {
+	margin-left: 55%;
+	font-size: 65px;
+    color: white;
+    margin-bottom: 24px;
+}
+.b_content p {
+	margin-left: 68%;
+	color: white;
+    margin-bottom: 32px;
+}
+.b_content button {
+	color: #005FAC;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 17px;
+    cursor: pointer;
+    background-color: white;
+}
+.b_content button:hover {
+	color: black;
+}
+/* banner section end  */
+
+
+/* failures section start */
+.failures{
+    padding-top: 130px;
+    
+}
+.fail_img{
+    width: 40%;
+    float: left;
+}
+.fail_img img{
+    width: 100%;
+    float: left;
+}
+.fail_cont{
+    width: 40%;
+    float: right;
+    padding-top: 230px;
+}
+.fail_cont ul{
+    
+}
+.fail_cont li{
+    list-style: none;
+}
+/* failures section end */
